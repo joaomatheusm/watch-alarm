@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/clock-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="timer">
+        <div id="date">00/00/0000</div>
+        <div id="watch" class="watch">00:00:00</div>
+        <div id="def-alarm">
+            <label id="alarm-hour">Hora do Alarme: </label><br>
+            <label>Tempo do alarme (segundos)</label>
+            <input type="number" id="alarm-time" value="0" min="0">
+        </div>
+        <div id="buttons">
+            <button id="activate-button">Ativar</button>
+            <button id="stop-button">Parar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
